@@ -150,6 +150,13 @@
     padding: 10px 20px;
     border: 1.5px solid rgba(0, 0, 0, 0.482);
     background-color: transparent;
+    cursor: pointer;
+}
+
+.card-info button:hover {
+    background-color: #0d1321;
+    color: white;
+    transition: 0.3s all ease;
 }
 
 .card-img {
@@ -356,3 +363,42 @@
 }
 
 /* support section end */
+
+/* footer section start */
+
+#footer-container {
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 65px;
+    padding: 30px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgb(247, 248, 248);
+    /* border: 2px solid red; */
+}
+
+#footer-name {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#social-link img {
+    width: 36px;
+    height: 36px;
+    transition: .5s all ease;
+}
+
+
+
+/* footer section end */
