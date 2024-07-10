@@ -37,6 +37,13 @@
     opacity: 0.8;
     color: rgb(13, 19, 33);
     background-color: transparent;
+    cursor: pointer;
+}
+
+#banner-title button:hover {
+    background-color: #0d1321;
+    color: white;
+    transition: 0.3s all ease;
 }
 
 #banner-content {
@@ -80,6 +87,7 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #banner-img {
@@ -291,6 +299,11 @@
     color: black;
 }
 
+.target-link:hover {
+    color: rgba(0, 0, 255, 0.758);
+    transition: 0.3s all ease;
+}
+
 
 /* target section end */
 
@@ -360,6 +373,7 @@
     font-size: 14px;
     font-weight: 600;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* support section end */
